@@ -2,6 +2,9 @@
 <div id="createData"></div>
 <h1>Posts</h1>
 
+<div id="showData"></div>
+
+<%= render('posts/search') %>
 <table>
   <thead>
     <tr>
@@ -20,6 +23,3 @@
 
 <%= link_to 'New Post', new_post_path, remote: true %>
 
-<div id="showData"></div>
-
-<%= render('posts/search') %>
